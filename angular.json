@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "nicolas-angular": {
+    "loja-de-celulares": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/nicolas-angular",
+            "outputPath": "dist/loja-de-celulares",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "nicolas-angular:build:production"
+              "buildTarget": "loja-de-celulares:build:production"
             },
             "development": {
-              "buildTarget": "nicolas-angular:build:development"
+              "buildTarget": "loja-de-celulares:build:development"
             }
           },
           "defaultConfiguration": "development"

@@ -1,5 +1,5 @@
 {
-  "name": "nicolas-angular",
+  "name": "loja-de-celulares",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:nicolas-angular": "node dist/nicolas-angular/server/server.mjs"
+    "serve:ssr:loja-de-celulares": "node dist/loja-de-celulares/server/server.mjs"
   },
   "private": true,
   "dependencies": {
